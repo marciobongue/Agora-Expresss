@@ -1,0 +1,26 @@
+:root
+{
+    --cor1:teal;
+    --font1:Arial, Helvetica, sans-serif;
+}
+form
+{
+    width: 550px;
+    height: 700px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 10px;
+    background-color:var(--cor1);
+    font-family: var(--font1);
+}
+input
+{
+    outline:none;
+    padding: 10px;
+}
+#botao
+{
+    width: 50%;
+    height: 9%;
+}

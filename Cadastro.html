@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie a sua conta Grátis</title>
+    <link rel="stylesheet" href="Cadastro.css">
+</head>
+<body>
+  <main>
+    <h2>Conclua o processo de criação para enviar os seus pacotes</h2>
+    <form  autocomplete="off">
+        <label for="Nome">Nome:</label><br>
+        <input type="text" name="nome" id="Nome" placeholder="Nome" minlength="4" maxlength="12" required><br><br>
+        <label for="Sobre">Sobre-Nome:</label> <br>
+        <input type="text" name="sobrenome" id="Sobre" placeholder="Sobrenome" minlength="4" maxlength="20" required><br><br>
+        <label for="email">Email:</label><br>
+       <input type="email" name="email" id="email" placeholder="Email" required><br><br>
+       <label for="tel">Telefone:</label><br>
+       <input type="tel" name="Telefone" id="tel" placeholder="(+244)9xx-xxx-xxx" minlength="9" maxlength="9" required><br><br>
+       <label for="Sexo">Escolha o seu Sexo:</label><br><br>
+       <label for="H">Homem</label>
+       <input type="radio" name="sexo" id="H" required>
+       <label for="M">Mulher</label>
+       <input type="radio" name="sexo" id="M"><br><br>
+       <label for="pass">Crie uma Passe:</label><br>
+       <input type="password" name="passe" id="pass" placeholder="Crie a Senha" minlength="8" maxlength="20" required><br><br>
+       <label for="Confirmacao">Confirme a sua Passe</label><br>
+       <input type="password" name="passe" id="Confirmacao" placeholder="Confirme a Senha" minlength="8" maxlength="20" required><br><br>
+       <input id="botao"  type="submit" value="Cadastrar-se">
+       </datalist>
+    </form>
+  
+</main>  
+</body>
+</html>
