@@ -1,4 +1,5 @@
 
+
         :root
         {
             --cor1:#D9D9D9;
@@ -54,16 +55,33 @@
             text-shadow: 3px 3px 3px black;
             font-family: Arial, Helvetica, sans-serif;
         }
-        div /*Primeira imagem do corpo do site*/
+        div.p /*Primeira imagem do corpo do site*/
         {
             background-color: aqua;
             color: aqua;
             height: 560px;
-            background-image: url(original.png);
+            background-image: url(imagens/original.png);
             background-size: cover;
             background-position: center;
             margin-top: 10px;
             margin: 0px;
+        }
+        .servicos
+        {
+            width:98.9vw;
+            height: 600px;
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-color: rgba(0, 128, 128, 0.233);
+        }
+        div.si
+        {
+          width:98.9vw;
+          height:560px;
+          background-color:aqua;
+          background-image: url(imagens/pexels-tiger-lily-4483610.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
         }
         section
         {
@@ -88,10 +106,23 @@
         {
             height: 150px;
             color: white;
-            background-color: black;
+            background-color:var(--cor2);
         }
         .f
         {
             text-align: center;
             margin-left: -60px;
+        }
+        .teste
+        {
+            height:170px;
+            width: 170px;
+            max-width:50%;
+           /* margin-top: 20px; */
+            margin-left: 95px;
+            margin-right: 180px;
+        }
+        .servicos > h1
+        {
+           margin-top: -40px;
         }
