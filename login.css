@@ -1,3 +1,9 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
 body
 {
     margin: 0px;
@@ -40,10 +46,10 @@ strong
 }
 main
 {
-    width: 1000px;
+    width:97%;
     height: 400px;
     padding: 20px;
-    border-radius:15px;
+  /*  border-radius:15px; */
     margin: auto;
     margin-top: 60px;
     background-color:rgba(0, 128, 128, 0.959);
@@ -54,10 +60,11 @@ form
 }
 .f
 {
-    padding: 2px;
-    width: 550px;
-    height: 60px;
-    border-radius: 10px;
+    height:35px;
+    padding:2px;
+    width:250px;
+    outline:none;
+    border-radius: 10px; 
 }
  footer
 {
